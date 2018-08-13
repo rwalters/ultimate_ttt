@@ -5,4 +5,3 @@ $LOAD_PATH.unshift(config) unless $LOAD_PATH.include?(config)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 require 'json'
-require 'dotenv/load'

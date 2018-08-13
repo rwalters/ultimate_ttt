@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+  server:
+    build:
+      context: .
+    command: ['bundle', 'exec', 'shotgun', '-p', '3002', '-o', '0.0.0.0', '/app/config_server.ru']
+    ports:
+      - "3002:3002"

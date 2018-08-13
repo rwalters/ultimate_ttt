@@ -1,7 +1,7 @@
 require 'spec_helper'
-require 'janus/server/api'
+require 'tic_tac_toe/server/api'
 
-describe Janus::Server::API do
+describe TicTacToe::Server::API do
   include Rack::Test::Methods
 
   def app

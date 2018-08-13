@@ -1,7 +1,7 @@
 require 'time'
 require 'grape'
 
-module Janus
+module TicTacToe
   module Server
     class API < Grape::API
       @@statuses =

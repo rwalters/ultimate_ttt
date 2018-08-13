@@ -6,4 +6,3 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 require 'json'
 require 'dotenv/load'
-require 'her'

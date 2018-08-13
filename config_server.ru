@@ -1,5 +1,5 @@
 require_relative 'boot'
 
-require 'janus/server/api'
+require 'tic_tac_toe/server/api'
 
-run Janus::Server::API
+run TicTacToe::Server::API
